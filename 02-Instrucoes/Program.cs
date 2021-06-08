@@ -6,7 +6,21 @@ namespace Instrucoes
     {
         static void Main()
         {
-            Console.WriteLine();
+            string[] args = new String[3] {"a", "b", "c"};
+            Console.WriteLine("Declaracoes()");
+            Declaracoes();
+            Console.WriteLine("InstrucaoIf()");
+            InstrucaoIf(args);
+            Console.WriteLine("InstrucaoSwitch()");
+            InstrucaoSwitch(args);
+            Console.WriteLine("InstrucaoWhile()");
+            InstrucaoWhile(args);
+            Console.WriteLine("InstrucaoDo()");
+            InstrucaoDo();
+            Console.WriteLine("InstrucaoFor()");
+            InstrucaoFor(args);
+            Console.WriteLine("InstrucaoForeach()");
+            InstrucaoForeach(args);
         } 
         static void Declaracoes()
         {
@@ -60,7 +74,7 @@ namespace Instrucoes
             }
         }
 
-        static void InstrucaoDo(string[] args)
+        static void InstrucaoDo()
         {
             string texto;
             do
