@@ -14,7 +14,7 @@ namespace EstruturaDoPrograma.Exemplos
         {
             if (primeiro == null)
             {
-                throw new InvalidOperationException("A pilha está vazia!");
+                throw new InvalidOperationException("A pilha está vazia!!");
             }
 
             object resultado = primeiro.item;
