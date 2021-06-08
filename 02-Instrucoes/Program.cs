@@ -6,7 +6,7 @@ namespace Instrucoes
     {
         static void Main()
         {
-            string[] args = new String[3] {"a", "b", "c"};
+            string[] args = {"a", "b", "c"};
             Console.WriteLine("Declaracoes()");
             Declaracoes();
             Console.WriteLine("InstrucaoIf()");
