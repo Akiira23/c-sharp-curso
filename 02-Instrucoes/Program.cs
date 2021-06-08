@@ -21,6 +21,8 @@ namespace Instrucoes
             InstrucaoFor(args);
             Console.WriteLine("InstrucaoForeach()");
             InstrucaoForeach(args);
+            Console.WriteLine("InstrucaoUsing()");
+            InstrucaoUsing(args);
         } 
         static void Declaracoes()
         {
