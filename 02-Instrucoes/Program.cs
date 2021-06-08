@@ -4,6 +4,10 @@ namespace Instrucoes
 {
     class Program
     {
+        static void Main()
+        {
+            Console.WriteLine();
+        } 
         static void Declaracoes()
         {
             int a;
