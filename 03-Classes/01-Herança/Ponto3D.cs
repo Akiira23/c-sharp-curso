@@ -11,7 +11,7 @@ namespace Classes.Herança
 
         public static void Calcular()
         {
-            //Faz alguma coisa...
+            //ponto3D.Calcular(), pertence a classe e nao a instancia
         }
         public override void CalcularDistancia3()
         {

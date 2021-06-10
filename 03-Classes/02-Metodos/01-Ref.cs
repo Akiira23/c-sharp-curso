@@ -9,9 +9,8 @@ namespace Classes.Metodos
             y = temp;
         }
 
-        public static void Inverter()
+        public static void Inverter(int i, int j)
         {
-            int i = 1, j = 2;
             Inverter(ref i, ref j);
             System.Console.WriteLine($"{i} {j}");    // Escreve "2 1"
         }
